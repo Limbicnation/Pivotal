@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#121212" />
+  
+  <!-- Gradients & Effects -->
+  <defs>
+    <linearGradient id="outerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0066FF" />
+      <stop offset="50%" stop-color="#00CCAA" />
+      <stop offset="100%" stop-color="#33DD88" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF3366" />
+      <stop offset="100%" stop-color="#FF9933" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Dynamic outer ring with precision segments -->
+  <circle cx="250" cy="250" r="180" fill="none" stroke="url(#outerGradient)" stroke-width="12" stroke-dasharray="25 8" />
+  
+  <!-- Geometric framework representing data structure -->
+  <polygon points="250,110 340,150 370,250 310,350 190,350 130,250 160,150" fill="none" stroke="url(#outerGradient)" stroke-width="6" stroke-linejoin="round" />
+  
+  <!-- Central pivot element - core of the add-in -->
+  <circle cx="250" cy="250" r="40" fill="#1a1a1a" stroke="#2a2a2a" stroke-width="2" />
+  <circle cx="250" cy="250" r="30" fill="#232323" />
+  <circle cx="250" cy="250" r="20" fill="url(#accentGradient)" />
+  
+  <!-- Connection nodes representing asset control points -->
+  <circle cx="250" cy="110" r="12" fill="#00AAFF" filter="url(#glow)" />
+  <circle cx="340" cy="150" r="10" fill="#00BBAA" />
+  <circle cx="370" cy="250" r="14" fill="#00CCAA" filter="url(#glow)" />
+  <circle cx="310" cy="350" r="10" fill="#22DD99" />
+  <circle cx="190" cy="350" r="12" fill="#33EE77" filter="url(#glow)" />
+  <circle cx="130" cy="250" r="10" fill="#0099FF" />
+  <circle cx="160" cy="150" r="12" fill="#0077FF" filter="url(#glow)" />
+  
+  <!-- Connection lines showing workflow relationships -->
+  <line x1="250" y1="250" x2="250" y2="110" stroke="#00AAFF" stroke-width="3" stroke-opacity="0.6" />
+  <line x1="250" y1="250" x2="340" y2="150" stroke="#00BBAA" stroke-width="3" stroke-opacity="0.6" />
+  <line x1="250" y1="250" x2="370" y2="250" stroke="#00CCAA" stroke-width="3" stroke-opacity="0.6" />
+  <line x1="250" y1="250" x2="310" y2="350" stroke="#22DD99" stroke-width="3" stroke-opacity="0.6" />
+  <line x1="250" y1="250" x2="190" y2="350" stroke="#33EE77" stroke-width="3" stroke-opacity="0.6" />
+  <line x1="250" y1="250" x2="130" y2="250" stroke="#0099FF" stroke-width="3" stroke-opacity="0.6" />
+  <line x1="250" y1="250" x2="160" y2="150" stroke="#0077FF" stroke-width="3" stroke-opacity="0.6" />
+  
+  <!-- Workflow direction indicators -->
+  <path d="M250,250 Q300,200 340,150" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="4 4" stroke-opacity="0.7" />
+  <path d="M250,250 Q300,300 310,350" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="4 4" stroke-opacity="0.7" />
+  <path d="M250,250 Q200,300 190,350" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="4 4" stroke-opacity="0.7" />
+  
+  <!-- 3D grid pattern suggesting Blender's workspace -->
+  <path d="M220,220 L280,220 L280,280 L220,280 Z" fill="none" stroke="#444444" stroke-width="1" />
+  <path d="M210,210 L290,210 L290,290 L210,290 Z" fill="none" stroke="#444444" stroke-width="0.5" />
+  
+  <!-- Logo Text - modern, geometric font styling -->
+  <text x="250" y="250" font-family="Arial, sans-serif" font-size="46" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#FFFFFF">Pivotal</text>
+</svg>
