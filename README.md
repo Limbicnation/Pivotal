@@ -1,7 +1,12 @@
 # Pivotal
 
-<div style="max-width: 512px; margin: 0 auto;">
-  <img src="https://github.com/Limbicnation/PivotPro/blob/main/images/pivotal.png" alt="Pivotal" style="width: 100%; height: auto; max-width: 512px; display: block;">
+<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 20px; margin: 0 auto; max-width: 800px;">
+  <div style="flex: 1; min-width: 250px; max-width: 400px;">
+    <img src="images/pivotal-logo.svg" alt="Pivotal Logo" style="width: 100%; height: auto; display: block;">
+  </div>
+  <div style="flex: 1; min-width: 200px; max-width: 300px;">
+    <img src="images/pivotal_ui.png" alt="Pivotal UI" style="width: 100%; height: auto; display: block;">
+  </div>
 </div>
 
 Pivotal is a Blender addon designed to enhance your modeling and animation workflow by providing quick access to advanced pivot point controls. 
