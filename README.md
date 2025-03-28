@@ -1,13 +1,25 @@
 # Pivotal
 
-<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 20px; margin: 0 auto; max-width: 800px;">
-  <div style="flex: 1; min-width: 250px; max-width: 400px;">
-    <img src="images/pivotal-logo.svg" alt="Pivotal Logo" style="width: 100%; height: auto; display: block;">
-  </div>
-  <div style="flex: 1; min-width: 200px; max-width: 300px;">
-    <img src="images/pivotal_ui.png" alt="Pivotal UI" style="width: 100%; height: auto; display: block;">
-  </div>
-</div>
+<!-- Pivotal Header Section - Logo and UI Preview -->
+<h1>Pivotal</h1>
+<hr>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin: 30px 0; border: 1px solid #2a2a2a; background-color: #171717; border-radius: 8px; overflow: hidden;">
+  <tr>
+    <td width="50%" align="center" valign="middle" style="padding: 30px;">
+      <img src="images/pivotal-logo.svg" alt="Pivotal Logo" style="width: 90%; max-width: 1024px; height: auto; display: inline-block;">
+    </td>
+    <td width="50%" align="center" valign="middle" style="padding: 30px;">
+      <img src="images/pivotal_ui.png" alt="Pivotal UI" style="width: 90%; max-width: 1024px; height: auto; display: inline-block; border-radius: 6px; box-shadow: 0 4px 16px rgba(0,0,0,0.3);">
+    </td>
+  </tr>
+</table>
+
+<p>
+Pivotal is a Blender addon designed to enhance your modeling and animation workflow by providing quick access to advanced pivot point controls. With Pivotal, you can set the pivot (origin) of your selected object to various strategic points with just a click, organized in an intuitive interface.
+</p>
+
+<h2>Features</h2>
 
 Pivotal is a Blender addon designed to enhance your modeling and animation workflow by providing quick access to advanced pivot point controls. 
 With Pivotal, you can set the pivot (origin) of your selected object to various strategic points with just a click, organized in an intuitive interface.
