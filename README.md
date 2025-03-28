@@ -1,5 +1,3 @@
-# Pivotal
-
 <!-- Pivotal Header Section - Logo and UI Preview -->
 <h1>Pivotal</h1>
 <hr>
